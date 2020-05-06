@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>OToons</title>
+  <link rel="icon" href="http://www.otoonscartoons.com/Cartoons/otoonslogo.jpg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!--Allows for mobile-first-->
+  <!--The following four lines include Bootstrap framework-->
+  <link rel="stylesheet" href="https:maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+  <link rel="stylesheet" href="compact-gallery.css">
+  <link href ="http://www.otoonscartoons.com/style.css" rel ="stylesheet">
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5e8f50dc313ffe00134d0b7c&product=inline-share-buttons" async="async"></script>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e8f50dc313ffe00134d0b7c&cms=website' async='async'></script>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e8f50dc313ffe00134d0b7c&product=sticky-share-buttons&cms=website' async='async'></script>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e8f50dc313ffe00134d0b7c&product=image-share-buttons&cms=website' async='async'></script>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e8f50dc313ffe00134d0b7c&product=video-share-buttons&cms=website' async='async'></script>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e8f50dc313ffe00134d0b7c&product=inline-follow-buttons&cms=website' async='async'></script>
+</head>
+
+<body>
+   
+  <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
+          <a class="navbar-item" href="http://www.otoonscartoons.com" padding-top=><img src="http://www.otoonscartoons.com/Cartoons/otoonslogo.jpg"></a>
+          <ul class="navbar-nav justify-content-center">
+              <li class="nav-item">
+                  <a class="nav-link active" href="http://www.otoonscartoons.com"> Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="http://www.otoonscartoons.com/about.html"> About </a>
+              </li>
+              <!--<li class="nav-item">
+                  <a class="nav-link" href="http://www.otoonscartoons.com/contact.html">Contact</a>-->
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"> Archives</a>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="http://www.otoonscartoons.com/2020-cartoons.html" style="color:black"> 2020 Cartoons </a>
+                      <a class="dropdown-item" href="http://www.otoonscartoons.com/2019-cartoons.html" style="color:black"> 2019 Cartoons </a>
+                      <a class="dropdown-item" href="http://www.otoonscartoons.com/2018-cartoons.html" style="color:black"> 2018 Cartoons </a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="http://www.otoonscartoons.com/editorials.html"> Editorials </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="http://www.otoonscartoons.com/publications.html"> Publications </a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <div class="container-fluid">
+  	<div class="row">
+      <div class="col-sm-3" align="center">
+      </div>
+      <div class="col-sm-6" align="left">
+          <br />
+          <h3 align="center">Sports Trivia</h3>
+
+          <br />
+          <form id='answerform_python_q1' method='post'  style="background-color: white"> <!-- action must match your next URL -->
+            <br />
+            <p align="center" style="font-size: 20pt;">
+            	<strong>You got {{num_correct_ans}}/{{num_qs}} correct!</strong> 
+            </p>
+            <!--<p style="padding-left: 25px; padding-right: 25px;">
+              <strong>1. {{question_1}}</strong>
+            </p>
+            <p style="padding-left: 45px; padding-right: 45px">
+             <input type='radio' name='answer_python_1' id="r1" value={{ans1_1}} /> <label for="r1" style="padding: 10px;">{{ans1_1}}</label> <br /> 
+             <input type='radio' name='answer_python_1' id="r2" value={{ans2_1}} /> <label for="r2" style="padding: 10px;">{{ans2_1}}</label> <br /> 
+             <input type='radio' name='answer_python_1' id="r3" value={{ans3_1}} /> <label for="r3" style="padding: 10px;">{{ans3_1}}</label> <br /> 
+             <input type='radio' name='answer_python_1' id="r4" value={{ans4_1}} /> <label for="r4" style="padding: 10px;">{{ans4_1}}</label> <br /><br />         
+            </p>
+
+            <p style="padding-left: 25px;  padding-right: 25px;">
+              <strong>2. {{question_2}}</strong>
+            </p>
+            <p style="padding-left: 45px; padding-right: 45px">
+             <input type='radio' name='answer_python_2' id="r5" value={{ans1_2}} /> <label for="r5" style="padding: 10px;">{{ans1_2}}</label> <br />
+             <input type='radio' name='answer_python_2' id="r6" value={{ans2_2}} /> <label for="r6" style="padding: 10px;">{{ans2_2}}</label> <br />
+             <input type='radio' name='answer_python_2' id="r7" value={{ans3_2}} /> <label for="r7" style="padding: 10px;">{{ans3_2}}</label> <br />
+             <input type='radio' name='answer_python_2' id="r8" value={{ans4_2}} /> <label for="r8" style="padding: 10px;">{{ans4_2}}</label> <br /><br />   
+            </p>
+
+            <p style="padding-left: 25px;  padding-right: 25px;">
+              <strong>3. {{question_3}}</strong>
+            </p>
+            <p style="padding-left: 45px;  padding-right: 45px;">
+             <input type='radio' name='answer_python_3' id="r9" value={{ans1_3}} /> <label for="r9" style="padding: 10px;">{{ans1_3}}</label> <br />
+             <input type='radio' name='answer_python_3' id="r10" value={{ans2_3}} /> <label for="r10" style="padding: 10px;">{{ans2_3}}</label> <br />
+             <input type='radio' name='answer_python_3' id="r11" value={{ans3_3}} /> <label for="r11" style="padding: 10px;">{{ans3_3}}</label> <br />
+             <input type='radio' name='answer_python_3' id="r12" value={{ans4_3}} /> <label for="r12" style="padding: 10px;">{{ans4_3}}</label> <br /><br />   
+            </p>
+            <p align="center">
+             <input type='submit' value='Submit Quiz' id="r13" formaction="/trivia"/><!--the 'value' is the word that will appear on your button.-->
+            </p>
+            <br />
+		</div>
+		<div class="col-sm-3" align="center">
+      </div>
+	</div>
+</div>
+<footer class="page-footer font-small pt-4">
+    <div class="footer text-center py-3">
+      <div class="sharethis-inline-follow-buttons"></div>
+    </div>
+    <div class="footer-copyright text-center py-3">&copy 2019 Copyright:
+      <a href="http://www.otoonscartoons.com">OToons.com</a>
+    </div>
+  </footer>
+</body>
+</html>
+
